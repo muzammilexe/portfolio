@@ -107,7 +107,7 @@ export const projectsData = [
   // },
 ] as const;
 
-export const combinedSkillsData = [
+export const skillsData = [
   "Python",
   "JavaScript",
   "TypeScript",
