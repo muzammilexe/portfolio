@@ -128,8 +128,6 @@ export const skillsData = [
   "Matplotlib",
   "Seaborn",
   "Hugging Face Transformers",
-  "XGBoost",
-  "LSTM",
   "CNNs",
   "Feature Engineering",
   "Data Preprocessing",
