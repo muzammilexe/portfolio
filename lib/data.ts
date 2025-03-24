@@ -2,13 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { BiMapAlt } from "react-icons/bi";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
 import mock_main from "@/public/mock_main.jpg"
 import mock_2 from "@/public/mock_2.jpg"
 import mock_3 from "@/public/mock_3.jpg"
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-import { mock } from "node:test";
 
 export const links = [
   {
@@ -52,15 +48,23 @@ export const experiencesData = [
     description:
       "I have been working as a freelancer for 2 years, with 1.5 years focused on AI and Machine Learning, and recently branching into web services. My stack includes React, Next.js, TypeScript, Tailwind, Prisma, MongoDB, and AI/ML solutions.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - present",
+    date: "2022 - Present",
   },
   {
     title: "National Geographic Society & The Nature Conservancy Externship",
     location: "Remote",
     description:
       "I completed an externship with National Geographic (NGS) and The Nature Conservancy (TNC), contributing to freshwater and community conservation projects.",
-    icon: React.createElement(BiMapAlt), // Using a database icon to represent data analytics
+    icon: React.createElement(BiMapAlt),
     date: "2023",
+  },
+  {
+    title: "Full Stack Developer at Remap.ai",
+    location: "Remote",
+    description:
+      "Working as a Full Stack Developer, contributing to both frontend and backend development. Responsible for implementing new features, maintaining existing codebase, and collaborating with cross-functional teams to deliver high-quality software solutions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025 - Present",
   },
 ];
 
